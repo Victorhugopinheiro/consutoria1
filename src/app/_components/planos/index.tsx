@@ -15,12 +15,11 @@ export function Planos() {
             <section className="my-28">
 
 
-                <article className="text-black my-16">
-                    <h1 className="text-3xl font-bold text-center my-8 font-serif">Nossos Planos</h1>
-                    <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                        <Grid imagem={treino1} plano="Consultoria" valor="R$1900" />
-                        <Grid imagem={treino2} plano="Treino" valor="R$2800" />
-                        <Grid imagem={treino3} plano="Consultoria e Treino" valor="R$3800" />
+                <article className="text-black my-16w-full ">
+                    <h1 className="text-2xl font-bold text-center my-8 font-serif md:text-3xl">Planos</h1>
+                    <div className="flex w-full justify-center  ">
+                        <Grid imagem={treino1} plano="Consultoria" valor="R$1900" porcentagem="5" />
+
                     </div>
                 </article>
             </section>

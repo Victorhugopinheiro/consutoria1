@@ -8,7 +8,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export function Footer() {
     return (
-        <section className="bg-[#f3e1e1]">
+        <section className="bg-[#f5ebeb]">
             <div className="container mx-auto">
                 <div className="text-white">
                    
