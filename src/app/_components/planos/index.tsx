@@ -17,8 +17,9 @@ export function Planos() {
 
                 <article className="text-black my-16w-full ">
                     <h1 className="text-2xl font-bold text-center my-8 font-serif md:text-3xl">Planos</h1>
-                    <div className="flex w-full justify-center  ">
-                        <Grid imagem={treino1} plano="Consultoria" valor="R$1900" porcentagem="5" />
+                    <div className="flex w-full justify-center relative ">
+                        <Grid  imagem={treino1} plano="Consultoria" valor="R$1900" porcentagem="5" />
+                      
 
                     </div>
                 </article>

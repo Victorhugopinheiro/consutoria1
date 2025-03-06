@@ -3,6 +3,7 @@ import { Container } from "../container";
 import gym from "../../../../public/transferir.jpg"
 import alimento from "../../../../public/dieta.jpeg"
 import useEmblaCarousel from "embla-carousel-react"
+import { Flex, Text } from "@chakra-ui/react";
 
 
 

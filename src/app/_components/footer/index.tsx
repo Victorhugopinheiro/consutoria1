@@ -8,7 +8,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export function Footer() {
     return (
-        <section className="bg-[#f5ebeb]">
+        <section className="bg-slate-900">
             <div className="container mx-auto">
                 <div className="text-white">
                    
@@ -16,7 +16,7 @@ export function Footer() {
 
 
 
-                    <div className="grid grid-cols-1 items-center  py-5 px-3 border-t-gray-200 border-opacity-35 border-t gap-6 md:grid-cols-2 lg:grid-cols-3 text-black">
+                    <div className="grid grid-cols-1 items-center  py-5 px-3 border-t-gray-200 border-opacity-35 border-t gap-6 md:grid-cols-2 lg:grid-cols-3 text-white">
 
 
                         <div className=" flex flex-col gap-2  ">

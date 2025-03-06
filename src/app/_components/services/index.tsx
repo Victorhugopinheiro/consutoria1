@@ -16,7 +16,7 @@ export function Services() {
     const testimonials = [
         {
             content:
-                "Perdi 10 kg e ganhei músculos! Consutoria incrível .",
+                "Perdi 10 kg e ganhei músculos! Consultoria incrível .",
             author: "Mariana Souza",
             role: "Acompanhada por Marcos Seya",
             image: tutor1,
@@ -59,7 +59,7 @@ export function Services() {
 
 
     return (
-        <section className="bg-[#d5ebf5] py-10 text-black">
+        <section className="bg-slate-300 py-10 text-black">
             <div className="container mx-auto px-4">
                 <h1 className="text-2xl text-center font-bold mb-6 md:text-3xl">Depoimentos dos nossos clientes</h1>
                 <div className="relative">
@@ -68,7 +68,7 @@ export function Services() {
                             {testimonials.map((item, index) => (
                                 <div key={index} className="flex-[0_0_100%] min-w-0 px-3 md:flex-[0_0_calc(100%/3)] ">
 
-                                    <article className=" px-6 bg-[#1e293b] flex flex-col items-center p-6 space-y-6 h-full text-white rounded-2xl ">
+                                    <article className=" px-6 bg-slate-900 flex flex-col items-center p-6 space-y-6 h-full text-white rounded-2xl ">
 
                                         <div className="flex  w-32 h-32 relative -center p-3 ">
 
